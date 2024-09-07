@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Welcome {
     @GetMapping("/trangchu")
     public String toString() {
-        return "Lop ST21A1B - Chuyen nganh IoT";
+        return "Lop ST21A1B - Chuyen nganh IoT - Dai hoc Dong A";
     }
 }
