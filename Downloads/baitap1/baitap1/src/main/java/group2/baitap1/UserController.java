@@ -11,12 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class UserController {
 
-//    @GetMapping("/user")
-//    public String getUserName(Model model) {
-//        model.addAttribute("user", new User());
-//        return "user";
-//    }
-
     @GetMapping("/addUser")
     public String showAddUserForm(Model model) {
         // Create an empty User object to bind form data
